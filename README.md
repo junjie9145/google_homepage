@@ -1,1 +1,1 @@
-﻿My first TOP project. Creating a clone of the Goolge frontpage.
+My first assignment for TOP. I made the google homepage twice. My first attempt ended up being too complicated, so I took a look at other student's samples and started over from scratch using a simplified design. I found trying to remember all the CSS code to be a challenge and had to refer to cheat sheets and online sources for help. All in all, I am satisfied in this final attempt that I am pusing to my github. 
