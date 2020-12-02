@@ -1,26 +1,78 @@
 ﻿
 <html>
+<style>
+	body {
+		margin: 20px 10px 20px 10px;
+	}
+	ul {
+		list-style-type: none;
+		display: inline;
+		position: fixed;	
+	}
+	li {
+		float: left;
+		padding-left: 10px;
+	}
+	#login {
+		padding-left: 50px;
+	}
+	.center {
+		position: relative;
+		top: 50px;
+		right: 50px;
+		height: 50px;
+	}
+	.googleimg {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		padding-top: 21px;
+		margin: -25px 0 0 -25px;
+	}
+	a {
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-size: 16px;
+		color: blueviolet
+		
+	}
+	a:hover {
+		color:red;
+	}
+	#legal {
+		position: fixed;
+    	height: 50px;
+    	bottom: 0px;
+    	left: 0px;
+    	right: 0px;
+    	margin-bottom: 0px;	
+	}
+</style>
   <body>  
     <main id="google-homepage">
       <header id="nav-bar">
-	  <a href=”” target="_blank">maps</a>
-	  <a href=”” target="_blank">music</a>
-	  <a href=”” target="_blank">images</a>
+	  <ul>
+		<li><a href=”” target="_blank">Maps</a></li>
+	    <li><a href=”” target="_blank">Music</a></li>
+		<li><a href=”” target="_blank">Images</a></li>
+		<li id="login"><button type="submit" style="background-color: blue;color: white; border-radius: 15%;">Log in</button></li>
+	  </ul>
 	</header>
-	<div id="googleimg">
+	<div class="center">
+	<div class="googleimg">
 	  <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google image"></img>
-	</div>
-	<div id="searchform">
 	  <form>
 		<input type="text" placeholder="Enter search">
 		<button type="submit">Search</button>
 		<button type="submit">Feel Lucky</button>
 	  </form>
-      </div>
+	  </div>
+	</div>
 	<footer id="legal">
-	<a href="" target="_blank">Advertising</a>
-	<a href="" target="_blank">Business</a>
-	<a href="" target="_blank">legal</a>
+		<ul>
+			<li><a href="" target="_blank">Advertising</a></li>
+			<li><a href="" target="_blank">Business</a></li>
+			<li><a href="" target="_blank">Legal</a></li>
+		</ul>
 	</footer>
    </main>
  </body>
